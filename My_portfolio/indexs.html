@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header Section -->
+<header id="header" class="bg-dark text-white text-center py-5">
+    <div class="container">
+        <h1>MANASA V</h1>
+        <p class="lead">Front-end Developer</p>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./Leadership_655X413.webp" alt="Your Name" class="img-fluid rounded-circle mb-3">
+            </div>
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p class="lead">Hi, I'm Manasa, a passionate web developer specializing in front-end technologies. I love transforming ideas into interactive experiences through clean and efficient code. Outside of coding, I enjoy photography and exploring new places.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="skill">
+                    <h3>HTML5</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill">
+                    <h3>CSS3</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more skills with progress bars as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-cen">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./tracker.jpeg" alt="Traker App" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Traker App</h5>
+                        <p class="card-text">
+                            A simple web application allowing users to add and delete tasks dynamically, demonstrating basic CRUD operations using HTML, CSS, and JavaScript.
+                        <a href="./traker.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./port.jpeg" alt="Project 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">portfolio website</h5>
+                        <p class="card-text">A static website showcasing your profile, skills, and projects with sections for "About Me," "Portfolio," and "Contact.if you have interest View it will be interesting"
+                        </p></p>
+                        <a href="./port.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Resume</h2>
+        <p class="text-center"><a href="./functionalSample.pdf" target="_blank" class="btn btn-secondary">Download Resume (PDF)</a></p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contact</h2>
+        <form id="contact-form" action="submit.php" method="post">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer id="footer" class="bg-dark text-white py-3">
+    <div class="container text-center">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- JavaScript and Bootstrap Bundle with Popper -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
